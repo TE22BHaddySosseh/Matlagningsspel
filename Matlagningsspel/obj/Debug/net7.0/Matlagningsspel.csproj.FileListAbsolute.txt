@@ -1,0 +1,4 @@
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net7.0\Matlagningsspel.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net7.0\Matlagningsspel.AssemblyInfoInputs.cache
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net7.0\Matlagningsspel.AssemblyInfo.cs
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net7.0\Matlagningsspel.csproj.CoreCompileInputs.cache
