@@ -38,9 +38,10 @@ public class Judge
 
 
         int finalScore = score;
-        while (finalScore > 100)
+
+        if (finalScore > 100)
         {
-            finalScore -= 1;
+            finalScore = 100;
         }
 
         while (finalScore < 0)
@@ -49,5 +50,7 @@ public class Judge
         }
 
         return finalScore;
+
+        
     }
 }

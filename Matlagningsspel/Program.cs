@@ -12,9 +12,11 @@ public class Game
 
     public void Start()
     {
+        Judge judy = new("Judy", ingredientNames[Random.Shared.Next(ingredientNames.Count)]);
+
         while (true)
         {
-            Console.WriteLine("Welcome to the ultimate cooking show! Your job is to make a dish our judges will simply rave over.");
+            Console.WriteLine("Welcome to the ultimate cooking show! Your job is to make a dish our judges will simply rave over!");
             Console.WriteLine("Get your knives and cutting board ready, chef!");
 
             Pot pot = new();
@@ -49,7 +51,10 @@ public class Game
                 if (!added){
                     Console.WriteLine("Oops, not enough budget!");
                 }
+
             }
+
+            judy.EvaluateDish(pot);
 
             Console.Write("Play another round? (y/n): ");
             string playAgain = Console.ReadLine();
@@ -58,6 +63,4 @@ public class Game
             }
         }
     }
-
-    //finns massor av problem med judge grejen
 }
