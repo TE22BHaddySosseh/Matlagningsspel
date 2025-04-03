@@ -9,10 +9,10 @@ public class Game
         "Carrots", "Onion", "Garlic", "Glass Noodles", "Sriracha", "Chicken", "Duck", "Bay Leaf",
         "Salt", "Pepper", "Paprika", "Cheese", "Milk", "Pasta", "Beef"
     };
-
+    private List<Judge> judges = GenerateJudges(3);
     public void Start()
     {
-        Judge judy = new("Judy", ingredientNames[Random.Shared.Next(ingredientNames.Count)]);
+        
 
         while (true)
         {
@@ -54,7 +54,13 @@ public class Game
 
             }
 
-            judy.EvaluateDish(pot);
+            int totalscore = 0;
+            foreach (var Judge in judges){
+                int score = Judge.EvaluateDish(pot);
+                totalscore += score;
+            }
+
+            int averagescore = 
 
             Console.Write("Play another round? (y/n): ");
             string playAgain = Console.ReadLine();
