@@ -9,11 +9,10 @@ public class Game
         "Carrots", "Onion", "Garlic", "Glass Noodles", "Sriracha", "Chicken", "Duck", "Bay Leaf",
         "Salt", "Pepper", "Paprika", "Cheese", "Milk", "Pasta", "Beef"
     };
-    private List<Judge> judges = GenerateJudges(3);
+
     public void Start()
     {
         
-
         while (true)
         {
             Console.WriteLine("Welcome to the ultimate cooking show! Your job is to make a dish our judges will simply rave over!");
@@ -60,7 +59,7 @@ public class Game
                 totalscore += score;
             }
 
-            int averagescore = 
+            int averagescore = 0;
 
             Console.Write("Play another round? (y/n): ");
             string playAgain = Console.ReadLine();
