@@ -1,0 +1,15 @@
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\Matlagningsspel.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\Matlagningsspel.AssemblyInfoInputs.cache
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\Matlagningsspel.AssemblyInfo.cs
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\Matlagningsspel.csproj.CoreCompileInputs.cache
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\Matlagningsspel.sourcelink.json
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\bin\Debug\net9.0\Matlagningsspel.exe
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\bin\Debug\net9.0\Matlagningsspel.deps.json
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\bin\Debug\net9.0\Matlagningsspel.runtimeconfig.json
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\bin\Debug\net9.0\Matlagningsspel.dll
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\bin\Debug\net9.0\Matlagningsspel.pdb
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\Matlagningsspel.dll
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\refint\Matlagningsspel.dll
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\Matlagningsspel.pdb
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\Matlagningsspel.genruntimeconfig.cache
+c:\Users\haddy.sosseh\Documents\PPG2\Matlagningsspel\Matlagningsspel\obj\Debug\net9.0\ref\Matlagningsspel.dll
