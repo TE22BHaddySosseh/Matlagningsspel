@@ -25,8 +25,6 @@ public class Game
             Console.WriteLine("Welcome to the ultimate cooking show! Your job is to make a dish our judges will simply rave over!");
             Console.WriteLine("Get your knives and cutting board ready, chef!");
             Console.WriteLine("Choose ingredients for your dish! Here's a list:");
-            Console.WriteLine("Carrots, Onion, Garlic, Glass Noodles, Sriracha, Chicken, Duck, Bay Leaf");
-            Console.WriteLine("Salt, Pepper, Paprika, Cheese, Milk, Pasta and Beef!");
 
             Pot pot = new();
             List<Judge> judges = GenerateJudges(3);
@@ -94,7 +92,7 @@ public class Game
     {
         List<Judge> judges = new();
         List<string> copynames = new(JudgesNames);
-        for (int i = 1; 1 <= Count; i++)
+        for (int i = 1; i <= Count; i++)
         {
             string name = $"Judge {i}";
             string preferredIngredient = ingredientNames[random.Next(ingredientNames.Count)];
