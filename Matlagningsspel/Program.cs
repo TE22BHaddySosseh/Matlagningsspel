@@ -9,6 +9,9 @@ public class Game
         "Carrots", "Onion", "Garlic", "Glass Noodles", "Sriracha", "Chicken", "Duck", "Bay Leaf",
         "Salt", "Pepper", "Paprika", "Cheese", "Milk", "Pasta", "Beef"
     };
+    private static List<string> JudgesNames = new(){
+        "Ramsey","Judy","Nicholas","Emery","Shalomm","Galinda","Logan","StunnaGrl"
+    };
 
     public void Start()
     {
@@ -19,6 +22,7 @@ public class Game
             Console.WriteLine("Get your knives and cutting board ready, chef!");
 
             Pot pot = new();
+            List<Judge> judges = GenerateJudges(3);
             Console.WriteLine("Choose ingredients for your dish! Here's a list:");
             foreach (var name in ingredientNames){
         
@@ -72,11 +76,16 @@ public class Game
         }
     }
 
-    private List<Judge> GenerateJudges(int Count){
+    public List<Judge> GenerateJudges(int Count){
         List<Judge> judges = new();
         for (int i = 1; 1 <= Count; i++)
         {
             string name = $"Judge {i}";
+            string preferredIngredient = ingredientNames[random.Next(ingredientNames.Count)];
+            Random nimnam = new Random(); 
+            int index = nimnam.Next(judges.Count);
+            judges.Add(new Judge(name,preferredIngredient));
         }
+        return judges;
     }
 }
