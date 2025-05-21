@@ -25,7 +25,9 @@ public class Game
             Console.WriteLine("Welcome to the ultimate cooking show! Your job is to make a dish our judges will simply rave over!");
             Console.WriteLine("Get your knives and cutting board ready, chef!");
             Console.WriteLine("Choose ingredients for your dish! Here's a list:");
-            
+            Console.WriteLine("Carrots, Onion, Garlic, Glass Noodles, Sriracha, Chicken, Duck, Bay Leaf");
+            Console.WriteLine("Salt, Pepper, Paprika, Cheese, Milk, Pasta and Beef!");
+
             Pot pot = new();
             List<Judge> judges = GenerateJudges(3);
             foreach (var name in ingredientNames)
@@ -40,7 +42,7 @@ public class Game
                 Console.Write("Enter your ingredient name to get cookin'! (or type 'done' to finish!): ");
                 string input = Console.ReadLine();
 
-                if (input == null)
+                if (string.IsNullOrWhiteSpace(input))
                 {
                     Console.WriteLine("Please enter a valid ingredient!");
                     continue;
@@ -58,6 +60,7 @@ public class Game
                 {
                     added = true;
                 }
+
 
                 if (!added)
                 {
