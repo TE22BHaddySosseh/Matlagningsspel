@@ -22,7 +22,7 @@ public class Game
             Console.WriteLine("Choose ingredients for your dish! Here's a list:");
             foreach (var name in ingredientNames){
         
-                Console.WriteLine("- " + name + " *");
+                Console.WriteLine("- " + name);
             }
 
             bool done = false;
@@ -54,18 +54,29 @@ public class Game
             }
 
             int totalscore = 0;
+            Console.WriteLine("Judge score!:");
             foreach (var Judge in judges){
                 int score = Judge.EvaluateDish(pot);
+                Console.WriteLine(Judge.name + " likes " + Judge.preferredIngredient + " and gave your dish " + score);
                 totalscore += score;
             }
 
-            int averagescore = 0;
+            int averagescore = totalscore/judges.Count;
+            Console.WriteLine("Your average score is: " + averagescore);
 
             Console.Write("Play another round? (y/n): ");
             string playAgain = Console.ReadLine();
             if (playAgain != "yes" && playAgain != "y"){
                 break;
             }
+        }
+    }
+
+    private List<Judge> GenerateJudges(int Count){
+        List<Judge> judges = new();
+        for (int i = 1; 1 <= Count; i++)
+        {
+            string name = $"Judge {i}";
         }
     }
 }
