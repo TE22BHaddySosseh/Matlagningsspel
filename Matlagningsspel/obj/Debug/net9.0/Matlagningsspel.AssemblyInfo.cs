@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Matlagningsspel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cfb5878eb343c6a7d78272df48e86680212e8fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29d181fe62e7ac58f721451540b70e43b6182e2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Matlagningsspel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Matlagningsspel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,15 +1,13 @@
 using System;
 using System.Collections.Generic;
 
-public class Judge
+public class Judge : Person
 {
-    public string Name { get; }
     public string PreferredIngredient { get; }
     public static int Count { get; internal set; }
 
-    public Judge(string name, string preferredIngredient)
+    public Judge(string Name, string preferredIngredient) : base(Name)
     {
-        Name = name;
         PreferredIngredient = preferredIngredient;
     }
 

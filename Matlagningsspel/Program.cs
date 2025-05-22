@@ -65,6 +65,11 @@ public class Game
                     Console.WriteLine("Oops, not enough budget!");
                 }
 
+                if (!ingredientNames.Contains (input, StringComparer.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Please enter a valid ingredient name!");
+                }
+
             }
 
             int totalscore = 0;
@@ -94,7 +99,10 @@ public class Game
         List<string> copynames = new(JudgesNames);
         for (int i = 1; i <= Count; i++)
         {
-            string name = $"Judge {i}";
+            int Index = random.Next(copynames.Count);
+            string name = copynames[Index];
+            copynames.RemoveAt(Index);
+
             string preferredIngredient = ingredientNames[random.Next(ingredientNames.Count)];
             judges.Add(new Judge(name, preferredIngredient));
         }
